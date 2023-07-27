@@ -1,7 +1,7 @@
 // pages/index.js
 import Link from 'next/link';
 import Head from 'next/head';
-import R1 from '../images/r1.jpeg';
+import R1 from '../images/logo.png';
 const Home = () => {
     const pageTitle = 'Home Page';
     const pageDescription = 'Welcome to the home page of our Next.js app.';
