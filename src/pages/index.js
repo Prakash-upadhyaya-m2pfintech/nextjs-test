@@ -9,8 +9,6 @@ const Home = () => {
     return (
         <>
             <Head>
-                <title>{pageTitle}</title>
-                <meta name="description" content={pageDescription} />
                 <meta property='og:image' content={'https://cdn3.vectorstock.com/i/1000x1000/78/57/react-icon-in-a-hexagon-vector-36587857.jpg'} />
                 <meta property='og:image:width' content='200' />
                 <meta property='og:image:height' content='200' />
