@@ -1,7 +1,7 @@
 // pages/index.js
 import Link from 'next/link';
 import Head from 'next/head';
-
+import R1 from '../images/r1.jpeg';
 const Home = () => {
     const pageTitle = 'Home Page';
     const pageDescription = 'Welcome to the home page of our Next.js app.';
@@ -9,7 +9,7 @@ const Home = () => {
     return (
         <>
             <Head>
-                <meta property='og:image' content={'https://cdn3.vectorstock.com/i/1000x1000/78/57/react-icon-in-a-hexagon-vector-36587857.jpg'} />
+                <meta property='og:image' content={R1} />
                 <meta property='og:image:width' content='200' />
                 <meta property='og:image:height' content='200' />
                 <meta property='og:description' content={pageDescription} />

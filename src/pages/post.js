@@ -1,7 +1,7 @@
 // pages/about.js
 import Link from 'next/link';
 import Head from 'next/head';
-
+import R2 from '../images/r2.png'
 const Post = () => {
     const pageDescription = 'Post page of our Next.js app.';
 
@@ -9,7 +9,7 @@ const Post = () => {
         <>
             <Head>
 
-                <meta property='og:image' content={'https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/react-512.png'} />
+                <meta property='og:image' content={R2} />
                 <meta property='og:image:width' content='200' />
                 <meta property='og:image:height' content='200' />
                 <meta property='og:description' content={pageDescription} />
